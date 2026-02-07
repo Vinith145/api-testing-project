@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" hostname="https://jsonplaceholder.typicode.com" package="" name="Get_Users" tests="3" failures="0" errors="0" timestamp="2026-02-01T20:53:49.706" time="0.627">
+    <testcase classname=" / Get_Users" name="Status code is 200" time="0.209"/>
+    <testcase classname=" / Get_Users" name="Response is JSON" time="0.209"/>
+    <testcase classname=" / Get_Users" name="Users array is not empty" time="0.209"/>
+  </testsuite>
+  <testsuite id="1" hostname="https://jsonplaceholder.typicode.com" package="" name="Create_POST" tests="2" failures="0" errors="0" timestamp="2026-02-01T20:53:50.333" time="0.388">
+    <testcase classname=" / Create_POST" name="Status code is 201" time="0.194"/>
+    <testcase classname=" / Create_POST" name="Post ID is present" time="0.194"/>
+  </testsuite>
+</testsuites>

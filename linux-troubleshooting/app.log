@@ -1,0 +1,8 @@
+cat <<EOF > app.log
+INFO Server started
+INFO User login success
+ERROR Database connection failed
+WARN Disk usage high
+INFO Request completed
+ERROR Timeout occurred
+EOF
